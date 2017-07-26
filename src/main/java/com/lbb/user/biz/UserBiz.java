@@ -23,7 +23,6 @@ public class UserBiz {
     }
 
     public List<User> getAllUser(){
-        logger.info("已经获取全部用户信息");
         return userDao.getAllUser();
     }
 }
